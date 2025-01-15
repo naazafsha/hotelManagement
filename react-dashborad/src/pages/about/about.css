@@ -1,0 +1,158 @@
+
+
+
+
+.btn-book a,
+.btn-book button,
+.btn-learnmore a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 80px;
+    display: inline-block;
+    background: #00b3b3;
+    color: #fff;
+    transition: 0.3s ease-out;
+    font-size: 24px;
+    font-weight: 600;
+}
+.btn-book button{
+  background: #FFFFFF;
+  border: none;
+  background: #ffa94d ;
+  border: 1px solid #FFB74D ;
+  transition: 0.3s ease-out;
+}
+.btn-book button:hover{
+  color: #FFFFFF;
+  background: #ff9625;
+  border: 1px solid #ccc;
+}
+.btn-book a:hover, .btn-learnmore a:hover{
+    background: #008b8b;
+    transform: scale(1.1);
+}
+
+.heading {
+    background: #e04f92;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 4px 20px;
+}
+.check-list{
+margin-top: 10%;
+}
+.check-list li {
+    background: url(./images/check-solid.png)no-repeat;
+    text-align: left;
+    list-style: none;
+    padding: 0px 0px 0px 40px;
+    margin-top: 2%;
+    background-position: 0px 4px;
+    background-size: 20px 20px;
+    font-size: 18px;
+    margin-bottom: 8%;
+}
+.who-we-are{
+    background: #fff;
+    padding: 4% 0 5%;
+}
+.special-services{
+    background: #F0F1F3;
+    padding: 4% 0 5%;
+    color: #090746;
+}
+.table-booking{
+    padding: 4% 0 5%;
+    background: #fff;
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .about-sec1 {
+        /* background-color: #f9f9f9; */
+        /* padding: 20px; */
+        background: url(./images/happy-customer.jpg)no-repeat;
+        background-size: cover;
+        background-size: 50% 100%;
+        padding: 4% 0 5%;
+    }
+
+    .about-sec1 .content {
+        background: #B0BEC5;
+        border-radius: 0px;
+        padding: 5% 20px !important;
+        color: #000;
+    }
+    .about-sec1 .content h3{
+        margin-top: 2%;
+    }
+
+}
+
+
+
+@media (max-width:767px) {}
+
+
+
+
+
+
+@media (min-width:767px) {}
+
+
+
+.booking-form {
+    /* max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px; */
+    background: #ff9625;
+    border-radius: 63px;
+    padding: 60px 80px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label,
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background: #ffa94d ;
+    padding: 10px;
+    border: 1px solid #FFB74D ;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+  }
+  .form-group label:hover,.form-group input:hover
+  ,.form-group select:hover,.form-group textarea:hover{
+    background: transparent;border: 1px solid #FFB74D ;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+
+
+@media (min-width:768px) {}

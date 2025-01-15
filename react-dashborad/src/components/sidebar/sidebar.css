@@ -1,0 +1,86 @@
+.sidebar {
+    /* margin-top: 80px; */
+    /* flex: 1/; */
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: #F5F5F5;
+    padding:20px;
+    width: 250px;
+    overflow-y: auto;
+    .top {
+        /* height: 80px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6439ff;
+        }
+    }
+
+    .center {
+        padding-left: 0px;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                padding: 5px;
+                cursor: pointer;
+                &:hover {
+                    background-color: #eaeaea;
+                    border-radius: 0px 30px 30px 0px;
+                }
+                .icon {
+                    font-size: 24px;
+                    color: #868686;
+                }
+                span {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left: 22px;
+                }
+            }
+        }
+    }
+    .middle {
+        /* margin: 10px; */
+        .middle_card {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 14px;
+            margin-top: 100px;
+
+            .card_text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 16px;
+            }
+            p {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #AA8AC3;
+                font-size: 12px;
+                padding: 10px;
+            }
+            .card_button {
+                background-color: #BBD8F4;
+                border: none;
+                padding: 8px 50px;
+                border-radius: 34px;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+    }
+}
