@@ -68,7 +68,7 @@ function About() {
         <div className='container mycontainer'>
           <div className='row'>
             <div className='col-md-6 col-6 text-center'></div>
-            <div className='col-md-6 col-6 text-center p-0'>
+            <div className='col-md-6 col-12 text-center p-0'>
               <div className='content'>
                 <h3 className='w700 md47 sm31 xs24'>Why Choose Us</h3>
                 <ul className='check-list'>
@@ -168,10 +168,10 @@ function About() {
                   {/* Full Name */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="name">Full Name:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <input
                           id="name"
                           type="text"
@@ -187,10 +187,10 @@ function About() {
                   {/* Email Address */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="email">Email Address:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <input
                           id="email"
                           type="email"
@@ -206,10 +206,10 @@ function About() {
                   {/* Contact Number */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="contact">Contact Number:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <input
                           id="contact"
                           type="tel"
@@ -225,10 +225,10 @@ function About() {
                   {/* Date */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="date">Date:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <input
                           id="date"
                           type="date"
@@ -244,10 +244,10 @@ function About() {
                   {/* Time */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="time">Time:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <input
                           type="time"
                           id="time"
@@ -263,10 +263,10 @@ function About() {
                   {/* Number of Guests */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="guests">Number of Guests:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <select
                           id="guests"
                           name="guests"
@@ -289,10 +289,10 @@ function About() {
                   {/* Special Requests */}
                   <div className="form-group">
                     <div className="row align-items-center">
-                      <div className="col-md-3 col-6">
+                      <div className="col-md-3 col-8">
                         <label htmlFor="specialRequests">Special Requests:</label>
                       </div>
-                      <div className="col-md-9 col-6">
+                      <div className="col-md-9 col-12">
                         <textarea
                           id="specialRequests"
                           name="specialRequests"

@@ -21,8 +21,9 @@ const App = () => {
     
     <div className='content'>
       <div className='homeContainer'>
+      {location.pathname === '/' && <Home />}
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
