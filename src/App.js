@@ -39,7 +39,7 @@ const App = () => {
 };
 
 const AppWrapper = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/hotelManagement">
     <App />
   </BrowserRouter>
 );
