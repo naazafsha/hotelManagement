@@ -124,7 +124,11 @@ margin-top: 10%;
     display: flex;
     flex-direction: column;
   }
-  
+  @media (max-width:600px){
+    .booking-form{
+      padding: 40px 35px;
+    }
+  }
   .form-group {
     margin-bottom: 15px;
   }

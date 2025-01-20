@@ -69,7 +69,7 @@ function About() {
           <div className='row'>
             <div className='col-md-6 col-6 text-center'></div>
             <div className='col-md-6 col-12 text-center p-0'>
-              <div className='content'>
+              <div className='content mt-md-0 mt-4'>
                 <h3 className='w700 md47 sm31 xs24'>Why Choose Us</h3>
                 <ul className='check-list'>
                   <li>Reliable and Professional Team.</li>
